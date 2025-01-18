@@ -1,0 +1,4 @@
+input()
+print(.islower())
+if a.lower():
+    print(.upper())
