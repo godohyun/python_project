@@ -1,0 +1,15 @@
+점수 = int(input("점수를 입력하세요: "))
+if 81 <=점수<= 100:
+    grade = "A"
+elif 61 <= 점수<= 80:
+    grade = "B"
+elif 41 <=점수<= 60:
+    grade = "C"
+elif 21 <= 점수 <= 40:
+    grade = "D"
+elif 0 <=점수 <= 20:
+    grade = "E"
+else:
+    grade = "잘못된 점수."
+
+print("grade is ")
