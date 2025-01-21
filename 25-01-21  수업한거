@@ -1,0 +1,62 @@
+'''
+a = input()
+print(a*2)
+'''
+'''
+b = int(input())
+print(b+10)
+'''
+'''
+c = int(input())
+if c%2 == 1:
+    print('홀수')
+else:
+    print('짝수')
+'''
+'''
+d = int(input())
+if d+20 >255:
+    print(255)
+else:
+    print(d+20)
+'''
+
+'''
+e = int(input())
+if e-20 < 0:
+    print(0)
+elif e-20 > 255:
+    print(255)
+else:
+    print(e-20)
+'''
+'''
+f = input()
+if list[3:]== '00':
+    print('정각입니다')
+else:
+    print('정각이 아닙니다')
+'''
+'''
+y = input('좋아하는 과일은?')
+fruit = ['사과', '포도', '홍시']
+if y in fruit:
+    print('정답입니다')
+else:
+    print('오답입니다')
+'''
+'''
+w = input()
+warn_investment_list = ['마이크로', '구글', '네이버', '카카오', '삼성', '엘지']
+if w in warn_investment_list:
+    print('투자경고 종목입니다')
+else:
+    print('투자 경고 종목이 아닙니다')
+'''
+'''
+user = input()
+if user.islower():
+   print(user.upper())
+else:
+    print(user.lower())
+'''
