@@ -1,0 +1,13 @@
+A, B = map(int, input().split())
+C = int(input())
+
+if B + C < 60:
+    print(A, B + C)
+else:
+    N = (B + C) // 60
+    M = (B + C) % 60
+    if A + N >= 24:
+        A = (A + N) % 24
+    else:
+        A = A + N
+    print(A, M)
