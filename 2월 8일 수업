@@ -1,0 +1,46 @@
+n = int(input())
+sum = 0
+
+for i in range(1, n + 1):
+    sum += i
+print(sum)
+----
+
+X = int(input())
+N = int(input())
+S = 0
+for i in range(N):
+    A, B = map(int, input().split())
+    S += A*B
+
+if S == X:
+    print("Yes")
+else:
+    print("No")
+-------
+
+N = int(input())
+
+for i in range(N//4):
+    print("long", end=' ')
+
+print('int')
+------
+T = int(input())
+
+for i in range(T):
+    A, B = map(int, input().split())
+    print(A+B)
+------
+
+T = int(input())
+for i in range(T):
+    A, B = map(int, input().split())
+    print('Case #',i+1,': ', A+B, sep='')
+-------
+
+n = int(input())
+
+for i in range(n):
+    print('*'*(i+1))
+-----
