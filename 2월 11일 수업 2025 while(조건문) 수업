@@ -1,0 +1,55 @@
+# n = int(input())
+#
+# for i in range(1,n+1):
+#     print(' ' * (n-i)+'*' * i)
+
+# t = int(input())
+#
+# for i in range(1, t+1):
+#     a, b = map(int, input().split())
+#     print(f'Case #{i}: {a} + {b} = {a+b}')
+
+
+# import random
+#
+# temp = [_ for _ in range(1, 46)]
+# ans = None
+# my_num = list(map(int, input().split()))
+# my_num.sort()
+# cnt = 1
+# while my_num != ans:
+#     ans = random.sample(temp, k=6)
+#     ans.sort()
+#     print(ans,cnt)
+#     cnt += 1
+# print(my_num, ans, cnt)
+
+
+# i = 2
+# j = 5
+# while i<32 or j>0:
+#     print(i, j)
+#     i *= 2
+#     j -= 1
+
+
+# a, b = map(int, input().split())
+# while a+b != 0:
+#     print(a+b)
+#     a, b = map(int, input().split())
+
+# import sys
+#
+# input = sys.stdin.readline
+#
+# t = int(input())
+# for i in range(t):
+#     a, b = map(int, input().split())
+#     print(a+b)
+# c = True
+# while c:
+#     try:
+#         a, b = map(int, input().split())
+#         print(a+b)
+#     except:
+#         c = False
