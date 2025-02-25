@@ -1,0 +1,26 @@
+# n, m = map(int, input().split())
+# a_2 = []
+# for i in range(n):
+#     a = list(map(int, input().split()))
+#     a_2.append(a)
+# b_2 = []
+# for i in range(n):
+#     b = list(map(int, input().split()))
+#     b_2.append(b)
+# for i in range(n):
+#     answer_list = []
+#     for u in range(m):
+#         answer_list.append(a_2[i][u] + b_2[i][u])
+#
+#     print(*answer_list)
+
+# n, x = map(int, input().split())
+# a = list(map(int, input().split()))
+# for i in a:
+#
+#     print(a.append(x))
+
+
+n = int(input())
+temp= list(map(int, input().split()))
+print(min(temp), max(temp))
