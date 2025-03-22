@@ -1,0 +1,33 @@
+# def print_coin():
+#     print("비트코인")
+#
+# for i in range(100):
+#     print_coin()
+#
+
+# def print_with_smile(word):
+#     print(word + ":D")
+#
+#
+# print_with_smile("안녕하세요")
+#
+# def print_sum(a,b):
+#     print(a+b)
+#
+# def print_arithmetic_operation(a,b):
+#     print(a+b)
+#     print(a-b)
+#     print(a*b)
+#     print(a/b)
+#
+# print_arithmetic_operation(3,4)
+def solution(price, money, count):
+    cnt=0
+    for i in range(1,count+1):
+        cnt += price*i
+    if money > cnt:
+        return 0
+    return cnt-money
+
+
+print(solution(3,20,2))
