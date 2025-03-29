@@ -1,0 +1,33 @@
+# def solution(lottos,win_nums):
+#     zero = 0
+#     correct_count = 0
+#     dic = {6: 1, 5: 2, 4: 3, 3: 4, 2: 5, 1: 6, 0: 6  }
+#     for num in lottos:
+#         if num in win_nums:
+#             correct_count += 1
+#
+#         if num == 0:
+#             zero += 1
+#
+#
+#     return [dic[correct_count+zero], dic[correct_count]]
+#
+#
+# print(solution([44, 1, 0, 0, 31, 25]	,[31, 10, 45, 1, 6, 19]))
+# a = {1, 2, 3, 4, 5}
+# b = {3, 4, 5, 6, 7}
+#
+# print(a - b)
+# print(b - a)
+
+# def solution(nums):
+#     pokemon = set(nums)
+#     ponkemon = len(nums) // 2
+#     if len(pokemon) > ponkemon:
+#         return ponkemon
+#     else:
+#         return len(pokemon)
+def solution():
+    
+    answer = -1
+    return answer
