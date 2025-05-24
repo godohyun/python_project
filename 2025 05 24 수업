@@ -1,0 +1,41 @@
+# n, m = map(int, input().split())
+# a = []
+# b = []
+# for i in range(n):
+#     a.append (list(map(int, input().split())))
+# for u in range(n):
+#     b. append(list(map(int, input().split())))
+#
+# for i in range(m):
+#     temp = []
+#     for u in range(m):
+#         temp.append(a[i][u]+ b[i][u])
+#     print(*temp)
+
+
+# 요세푸스 문제
+N, K = map(int, input().split())
+person = list(range(1, N+1))
+print(person)
+remove = []
+# print(remove)
+
+# [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# 지운 숫자에서 k번째 숫자가 삭제가 되야한다
+# 끝나면 처음으로 돌아간다.(ex.7에서 1)
+# 사라진 순서대로 저장이 되어 있어야한다?
+# < , , , , ,> 형식이 되야한다.
+
+
+# 처음이 라면
+#   리스트의 m번쨰의 값을 제거 한다.
+# 처음이 아니라면
+#   지워진 수부터 m번째 의 숫자를 제거한다.
+# 제거한 수를 리스트에 넣ㅇ러준다.
+# 만약 m의 값이 리스트의 길이보다 길어졌다면
+#   처음으로 돌아가서 반복한다.
+# 리스트에 남은 요소가 없을 때까지 반복한다.
+# 요소 출력
+while remove:
+    if len(remove) < K:# 리스트 길이보다 m이 크면 처음부터 다시 시작
+        elif len(remove) :
